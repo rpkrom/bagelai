@@ -1,11 +1,6 @@
-import './App.css'
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <a>hello world</a>
-    </>
+    <div>Hello World</div>
   )
 }
 

@@ -1,10 +1,39 @@
 import './dashboardPage.css';
+// import { useNavigate } from "react-router-dom";
+// import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 const DashboardPage = () => {
   return (
-    <div className="dashboardpage">
-      <h1>Welcome to the dashboard page</h1>
+    <div className="dashboardPage">
+    <div className="texts">
+      <div className="logo">
+        <img src="/bagels-med-white.png" alt="" />
+        <h1>BAGELS AI</h1>
+      </div>
+      <div className="options">
+        <div className="option">
+          <img src="/chat.png" alt="" />
+          <span>Create a New Chat</span>
+        </div>
+        <div className="option">
+          <img src="/image.png" alt="" />
+          <span>Analyze Images</span>
+        </div>
+        <div className="option">
+          <img src="/code.png" alt="" />
+          <span>Help me with my Code</span>
+        </div>
+      </div>
     </div>
+    <div className="formContainer">
+      {/* <form onSubmit={handleSubmit}>
+        <input type="text" name="text" placeholder="Ask me anything..." />
+        <button>
+          <img src="/arrow.png" alt="" />
+        </button>
+      </form> */}
+    </div>
+  </div>
   );
 };
 
